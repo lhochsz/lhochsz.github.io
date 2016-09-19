@@ -106,6 +106,46 @@ p {
   color: #273d55;
 }
 
+.simone {
+  color: #273d55;
+  text-align: center;
+  font-weight: bold;
+  font-size: 5em;
+  font-family: 'Lobster', cursive;
+  padding-top: 10px;
+  margin: 0 0 20px 0;
+}
+
+.simone:hover {
+  color: #f93eda;
+  -webkit-text-stroke: .25px #fcf8a9;
+
+}
+
+.neighborfood {
+  font-family: 'Cabin Sketch', cursive;
+  color: #273d55;
+  font-size: 4em;
+}
+
+.neighborfood:hover {
+    color: rgb(80, 122, 15);
+}
+
+.orderUp {
+  font-family: 'Pacifico', cursive;
+  color: #273d55;
+  font-size: 4em;
+}
+
+.orderUp:hover {
+  color: #6B7FD7;
+}
+
+.portfolioText {
+  text-align: center;
+}
+
 .contact {
   color: white;
   font-family: 'Poppins', sans-serif;
@@ -144,11 +184,27 @@ ul, li {
   #index-banner .section {
     top: 10%;
   }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .nav_links li a {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .nav_links li a {
+    font-size: 15px;
   }
 }
 
