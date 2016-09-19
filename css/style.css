@@ -106,11 +106,18 @@ p {
   color: #273d55;
 }
 
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 300px;
+}
+
 .simone {
   color: #273d55;
   text-align: center;
   font-weight: bold;
-  font-size: 5em;
+  font-size: 3em;
   font-family: 'Lobster', cursive;
   padding-top: 10px;
   margin: 0 0 20px 0;
@@ -118,14 +125,12 @@ p {
 
 .simone:hover {
   color: #f93eda;
-  -webkit-text-stroke: .25px #fcf8a9;
-
 }
 
 .neighborfood {
   font-family: 'Cabin Sketch', cursive;
   color: #273d55;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .neighborfood:hover {
@@ -135,7 +140,7 @@ p {
 .orderUp {
   font-family: 'Pacifico', cursive;
   color: #273d55;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .orderUp:hover {
