@@ -113,6 +113,10 @@ p {
   height: 300px;
 }
 
+.portfolioBlock {
+  margin: 3em;
+}
+
 .simone {
   color: #273d55;
   text-align: center;
@@ -121,12 +125,37 @@ p {
   font-family: 'Lobster', cursive;
   padding-top: 10px;
   margin: 0 0 20px 0;
+  display: block;
 }
 
 .simone:hover {
   color: #f93eda;
 }
 
+.deets {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 10px;
+}
+
+/*#some-element {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+#some-div:hover #some-element {
+  display: block;
+}*/
+
+/*#some-element:hover {
+  display: none;
+}
+*/
 .neighborfood {
   font-family: 'Cabin Sketch', cursive;
   color: #273d55;
@@ -180,6 +209,8 @@ ul, li {
 .top:hover {
   color: white;
 }
+
+
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
