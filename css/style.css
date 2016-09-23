@@ -280,6 +280,10 @@ ul, li {
   p.neighborfood {
     margin-right: 5px;
   }
+
+  .social {
+    width: 15%;
+  }
 }
 
 .icon-block {
