@@ -125,7 +125,7 @@ p {
   color: white;
   text-align: center;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 2em;
   font-family: 'Lobster', cursive;
   padding-top: 10px;
   margin: 0 0 20px 0;
@@ -165,7 +165,7 @@ p {
 .neighborfood {
   font-family: 'Cabin Sketch', cursive;
   color: white;
-  font-size: 3em;
+  font-size: 2em;
   transition: 1s;
 }
 
@@ -177,12 +177,24 @@ p {
 .orderUp {
   font-family: 'Pacifico', cursive;
   color: white;
-  font-size: 3em;
+  font-size: 2em;
   transition: 1s;
 }
 
 .orderUp:hover {
   color: #6B7FD7;
+  transition: 1s;
+}
+
+.freeSpot {
+  color: white;
+  font-size: 2em;
+  transition: 1s;
+  font-family: 'Raleway', sans-serif;
+}
+
+.freeSpot:hover{
+  color: #FFE74C;
   transition: 1s;
 }
 
