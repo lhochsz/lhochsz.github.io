@@ -63,10 +63,6 @@ h1:hover {
   font-size: 50px;
 }
 
-  h1:hover {
-    transition: 1s;
-    font-size: 55px;
-  }
 
 
 p.webdev {
@@ -295,6 +291,11 @@ ul, li {
 
   h1 {
     font-size: 20px;
+  }
+
+    h1:hover {
+    transition: 1s;
+    font-size: 25px;
   }
 
   .nav_links li a {
