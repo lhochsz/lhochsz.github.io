@@ -29,6 +29,7 @@ body {
 
 .nav_links li a:hover {
   color: #273d55;
+  transition: 1s;
 }
 
 .nav_links {
@@ -129,10 +130,12 @@ p {
   padding-top: 10px;
   margin: 0 0 20px 0;
   display: block;
+  transition: 1s;
 }
 
 .simone:hover {
   color: #f93eda;
+  transition: 1s;
 }
 
 .deets {
@@ -163,20 +166,24 @@ p {
   font-family: 'Cabin Sketch', cursive;
   color: white;
   font-size: 3em;
+  transition: 1s;
 }
 
 .neighborfood:hover {
   color: rgb(80, 122, 15);
+  transition: 1s;
 }
 
 .orderUp {
   font-family: 'Pacifico', cursive;
   color: white;
   font-size: 3em;
+  transition: 1s;
 }
 
 .orderUp:hover {
   color: #6B7FD7;
+  transition: 1s;
 }
 
 .portfolioText {
@@ -213,6 +220,10 @@ ul, li {
   color: white;
 }
 
+
+.social {
+  transition: 1s;
+}
 
 
 @media only screen and (max-width : 1070px) {
