@@ -136,6 +136,7 @@ p {
 .simone:hover {
   color: #f93eda;
   transition: 1s;
+  font-size: 3em;
 }
 
 .deets {
@@ -172,6 +173,7 @@ p {
 .neighborfood:hover {
   color: rgb(80, 122, 15);
   transition: 1s;
+  font-size: 3em;
 }
 
 .orderUp {
@@ -184,6 +186,7 @@ p {
 .orderUp:hover {
   color: #6B7FD7;
   transition: 1s;
+  font-size: 2.5em;
 }
 
 .freeSpot {
@@ -196,6 +199,7 @@ p {
 .freeSpot:hover{
   color: #FFE74C;
   transition: 1s;
+  font-size: 3em;
 }
 
 .portfolioText {
