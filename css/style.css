@@ -60,8 +60,14 @@ h1 {
 
 h1:hover {
   transition: 1s;
-  font-size: 65px;
+  font-size: 50px;
 }
+
+  h1:hover {
+    transition: 1s;
+    font-size: 55px;
+  }
+
 
 p.webdev {
   font-family: 'Poppins', sans-serif;
@@ -258,7 +264,12 @@ ul, li {
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 40px;
+  }
+
+  h1:hover {
+    transition: 1s;
+    font-size: 45px;
   }
 
   .nav_links li a {
